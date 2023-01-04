@@ -1,3 +1,8 @@
 #!/bin/python3
 
-print("Hello this is your first python class")
+names = ["james", "kate", "Ben", "Andrew"]
+
+for i in range(0, len(names)):
+    names_count = len(names[i])
+    print(f"{i}.{names[i]} -> {names_count}") 
+    
